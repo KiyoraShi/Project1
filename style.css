@@ -81,7 +81,7 @@ body{
     background-color: #494E48;
 }
 .about-text{
-    padding: 50px 20px;
+    padding: 15% 20px;
 }
 .about-text *{
     color: #494E48;
@@ -135,10 +135,11 @@ body{
         height: 500px;
     }
     .about-picture{
-        width: 300px;
+        width: 40%;
         height: 100%;
     }
     .about-text{
-        padding: 60px;
+        width: 59%;
+        padding: 8%;
     }
 }
