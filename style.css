@@ -1,3 +1,4 @@
+
 body{
     background-color: #FEFEFC;
 }
@@ -29,7 +30,7 @@ body{
 .rectangle{
     grid-area: 4/2/5/3;
     background-color: #73877c;
-
+    
 }
 .articles{
     background-color: #F4F6F3;
@@ -73,32 +74,71 @@ body{
     font-weight: bold;
 }
 .about{
-    height: 500px;
     width: 100%;
     display: flex;
 }
 .about-picture{
     background-color: #494E48;
 }
-
-
-@media (max-width:420px) {
-    .about-picture{
-        width: 450px;
-        height: 100%;
-    }  
+.about-text{
+    padding: 50px 20px;
+}
+.about-text *{
+    color: #494E48;
+    text-align: center;
+    margin: 20px 0px;
+}
+.aboutTextTitle{
+    font-size: 2.5rem;
+    font-weight: bold;
 
 }
-@media (min-width:421px) and (max-width:720px) {
-    .about-picture{
-        width: 450px;
-        height: 100%;
-    }  
-}
-@media (min-width:721px) and (max-width:10000px) {
-    .about-picture{
-        width: 500px;
-        height: 100%;
-    }    
+.aboutTextDiv{
+    width: 50px;
+    height: 5px;
+    background-color: #494E48;
+    margin: auto;
 
+}
+.aboutTextdescription{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+   
+@media (min-width:1px) and (max-width:480px){
+    /*mobile*/
+    .about{
+        height: 100vh;
+        display: inline-block;
+    }
+    .about-picture{
+        width: 100%;
+        height: 30%;
+    }
+}
+@media (min-width:480px) and (max-width:768px){
+    /*tablets*/
+    .about{
+        height: 120vh;
+        display: inline-block;
+
+    }
+    .about-picture{
+        width: 100%;
+        height: 40%;
+    }
+}
+@media (min-width:768px) and (max-width:100024px){
+    /*computer*/
+    .about{
+        height: 500px;
+    }
+    .about-picture{
+        width: 300px;
+        height: 100%;
+    }
+    .about-text{
+        padding: 60px;
+    }
 }
