@@ -3,15 +3,38 @@ body{
     background-color: #FEFEFC;
 }
 .header{
+    width: 100%;
     position: fixed;
     display: flex;
+    background-color: #494e4893;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 10px 0px;
+
 }
 .headerLogo{
-    color:#494E48;
+    color:#F1F3F0;
     font-size: 1.5rem;
+    width: 7%;
+    font-weight: bold;
+    margin-left:20px;
+    margin-top: 5px;
+    
 }
 .headerPages{
-
+    width: 86%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.headerPages *{
+    color: #F1F3F0;
+    padding: 10px 1.5%;
+}
+.headerSubscribe{
+    border: #F1F3F0 solid 1px;
+    border-radius: 3px;
 }
 
 
